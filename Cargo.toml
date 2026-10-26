@@ -4,7 +4,6 @@ version = "0.1.0"
 edition = "2021"
 description = "Twinkle-Tray-style brightness control for Linux (X11): backlight + DDC/CI, zero-GUI-toolkit"
 license = "MIT"
-# TODO: set to the real repository URL before publishing.
 repository = "https://github.com/dewhush/fluxdeck"
 authors = ["dewhush"]
 keywords = ["brightness", "ddc", "backlight", "tray", "x11"]
