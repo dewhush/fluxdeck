@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=FluxDeck Brightness
+Exec=fluxdeck
+Icon=display-brightness
+Comment=Twinkle-Tray-style brightness (Rust)
+Terminal=false
+Categories=Utility;
