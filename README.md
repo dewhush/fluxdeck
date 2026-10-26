@@ -6,7 +6,9 @@ sysfs/i2c directly. Backlight (laptop panel) + DDC/CI (external monitors).
 
 <!-- badges: CI / crates.io / license — add when publishing -->
 
-![screenshot placeholder](docs/screenshot.png)
+![FluxDeck — Twinkle Tray for Linux (X11)](docs/banner.png)
+
+[Real UI: multi-monitor sliders with an "All monitors" master row](docs/screenshot.png)
 
 ## Why
 

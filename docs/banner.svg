@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0e1a"/>
+      <stop offset="1" stop-color="#11162b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.2" cy="0.3" r="0.9">
+      <stop offset="0" stop-color="#4a6fd4" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#4a6fd4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7da2ff"/>
+      <stop offset="1" stop-color="#4a6fd4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <rect width="1280" height="640" fill="url(#glow)"/>
+
+  <!-- sun icon -->
+  <g>
+    <circle cx="220" cy="180" r="42" fill="#ffc94d"/>
+    <g stroke="#ffc94d" stroke-width="6" stroke-linecap="round">
+      <line x1="220" y1="118" x2="220" y2="100"/>
+      <line x1="220" y1="242" x2="220" y2="260"/>
+      <line x1="158" y1="180" x2="140" y2="180"/>
+      <line x1="282" y1="180" x2="300" y2="180"/>
+      <line x1="176" y1="136" x2="163" y2="123"/>
+      <line x1="264" y1="224" x2="277" y2="237"/>
+      <line x1="264" y1="136" x2="277" y2="123"/>
+      <line x1="176" y1="224" x2="163" y2="237"/>
+    </g>
+  </g>
+
+  <!-- title -->
+  <text x="330" y="200" font-family="Segoe UI, Ubuntu, DejaVu Sans, sans-serif" font-size="100" font-weight="800" fill="#ffffff">FluxDeck</text>
+  <text x="334" y="256" font-family="Segoe UI, Ubuntu, DejaVu Sans, sans-serif" font-size="34" fill="#8b93ad">Twinkle Tray for Linux (X11)</text>
+
+  <!-- floating panel mockup -->
+  <g transform="translate(340,300)">
+    <rect x="0" y="0" width="600" height="240" rx="18" fill="#161820" stroke="#2c3040" stroke-width="2"/>
+    <rect x="1" y="1" width="598" height="238" rx="17" fill="none" stroke="#4a6fd4" stroke-opacity="0.2" stroke-width="1"/>
+    <!-- header -->
+    <circle cx="38" cy="38" r="9" fill="#ffc94d"/>
+    <text x="58" y="46" font-family="Segoe UI, Ubuntu, DejaVu Sans, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Brightness</text>
+    <text x="570" y="46" font-family="Segoe UI, Ubuntu, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="end">72%</text>
+    <line x1="18" y1="60" x2="582" y2="60" stroke="#2c3040" stroke-width="1"/>
+    <!-- rows -->
+    <g font-family="Segoe UI, Ubuntu, DejaVu Sans, sans-serif" font-size="17" fill="#ffffff">
+      <text x="20" y="100">INX FHD</text>
+      <text x="20" y="150">P24FBA-RAGL</text>
+      <text x="20" y="200" font-weight="700">All monitors</text>
+    </g>
+    <g>
+      <rect x="220" y="88" width="300" height="12" rx="6" fill="#333848"/>
+      <rect x="220" y="138" width="300" height="12" rx="6" fill="#333848"/>
+      <rect x="220" y="188" width="300" height="12" rx="6" fill="#333848"/>
+      <rect x="220" y="88" width="225" height="12" rx="6" fill="url(#fill)"/>
+      <rect x="220" y="138" width="249" height="12" rx="6" fill="url(#fill)"/>
+      <rect x="220" y="188" width="237" height="12" rx="6" fill="url(#fill)"/>
+      <circle cx="445" cy="94" r="11" fill="#4a6fd4"/><circle cx="445" cy="94" r="8" fill="#ffffff"/>
+      <circle cx="469" cy="144" r="11" fill="#4a6fd4"/><circle cx="469" cy="144" r="8" fill="#ffffff"/>
+      <circle cx="457" cy="194" r="11" fill="#4a6fd4"/><circle cx="457" cy="194" r="8" fill="#ffffff"/>
+    </g>
+    <g font-family="Segoe UI, Ubuntu, DejaVu Sans, sans-serif" font-size="17" fill="#ffffff">
+      <text x="580" y="103" text-anchor="end">75%</text>
+      <text x="580" y="153" text-anchor="end">83%</text>
+      <text x="580" y="203" text-anchor="end">79%</text>
+    </g>
+  </g>
+
+  <!-- bottom badge strip (below panel, clear of it) -->
+  <g font-family="Segoe UI, Ubuntu, DejaVu Sans, sans-serif" font-size="24" fill="#aab3cc">
+    <text x="344" y="580">~1 MB binary</text>
+    <text x="558" y="580">&#183;</text>
+    <text x="592" y="580">zero GUI toolkit</text>
+    <text x="806" y="580">&#183;</text>
+    <text x="840" y="580">backlight + DDC/CI</text>
+    <text x="1048" y="580">&#183;</text>
+    <text x="1082" y="580" fill="#7da2ff" font-weight="700">MIT</text>
+  </g>
+</svg>
